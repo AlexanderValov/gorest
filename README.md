@@ -14,3 +14,19 @@
 - .../rag/v1/users/all (GET) - get all users
 - .../rag/v1/users/{id} (GET) - get user
 - .../rag/v1/check (GET) - check server
+
+### Development Tools:
+- GoLand
+- DataGrip
+
+### Virtualization Tools:
+- Docker
+
+### Testing Tools:
+- Postman
+
+### RDBMS:
+- PostgreSQL
+
+### Version control:
+- Git
