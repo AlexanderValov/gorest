@@ -8,12 +8,12 @@
 - run main go file.
 
 ### Endpoints:
-- .../rag/v1/users/create (POST) - create user 
-- .../rag/v1/users/update (PUT) - update user
-- .../rag/v1/users/delete/{id} (DELETE) - delete user
-- .../rag/v1/users/all (GET) - get all users
-- .../rag/v1/users/{id} (GET) - get user
-- .../rag/v1/check (GET) - check server
+- .../v1/users/create (POST) - create user 
+- .../v1/users/update (PUT) - update user
+- .../v1/users/delete/{id} (DELETE) - delete user
+- .../v1/users/all (GET) - get all users
+- .../v1/users/{id} (GET) - get user
+- .../v1/check (GET) - check server
 
 ### Development Tools:
 - GoLand
