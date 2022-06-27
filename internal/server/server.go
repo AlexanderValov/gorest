@@ -44,7 +44,7 @@ func NewServer(us UserServicier, logger *zap.Logger, s *internal.Settings) *Serv
 func (s *Server) Handler() *mux.Router {
 	r := mux.NewRouter()
 
-	router := r.PathPrefix("/rag/v1").Subrouter()
+	router := r.PathPrefix("/v1").Subrouter()
 	// check server status
 	router.HandleFunc("/check", s.HealthCheckHandler).Methods(http.MethodGet)
 	// create a user
